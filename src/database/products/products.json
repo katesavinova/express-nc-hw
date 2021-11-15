@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Чайник классический",
+    "image": "https://cdn.pixabay.com/photo/2018/07/15/17/43/the-brew-kettle-3540132_1280.png",
+    "price": "2990₽"
+  },
+  {
+    "name": "Лампа настольная",
+    "image": "https://cdn.pixabay.com/photo/2017/05/17/11/20/table-lamp-2320603_1280.png",
+    "price": "2990₽"
+  },
+  {
+    "name": "Ваза",
+    "image": "https://cdn.pixabay.com/photo/2020/06/17/12/59/vase-5309392_1280.png",
+    "price": "4699₽"
+  },
+  {
+    "name": "Торшер",
+    "image": "https://cdn.pixabay.com/photo/2017/05/17/11/20/table-lamp-2320604_1280.png",
+    "price": "1599₽"
+  },
+  {
+    "name": "Табурет",
+    "image": "https://cdn.pixabay.com/photo/2017/09/26/21/28/folding-chair-2790167_1280.png",
+    "price": "2990₽"
+  },
+  {
+    "name": "Банка декоративная",
+    "image": "https://cdn.pixabay.com/photo/2017/01/18/15/27/milk-can-1990081_1280.png",
+    "price": "2990₽"
+  },
+  {
+    "name": "Шкатулка",
+    "image": "https://cdn.pixabay.com/photo/2017/07/24/23/58/chest-2536477_1280.png",
+    "price": "2990₽"
+  },
+  {
+    "name": "Балдахин",
+    "image": "https://cdn.pixabay.com/photo/2019/10/19/17/20/daybed-4561819_1280.png",
+    "price": "2990₽"
+  },
+  {
+    "name": "Тюль",
+    "price": "4870",
+    "img": "https://cdn.pixabay.com/photo/2016/11/23/18/04/curtains-1854110_1280.jpg"
+  }
+]
