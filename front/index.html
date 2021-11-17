@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <p>МилыйДом</p>
+      </div>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#">Домой</a>
+          <a href="#">О Нас</a>
+          <a href="#">Каталог</a>
+          <a href="#">Контакты</a>
+          <a
+            href="#"
+            class="icon-bak"
+            id="menu-basket"
+            onclick="click_menu_basket()"
+            ><i class="fas fa-cart-plus"></i>
+          </a>
+          <a href="#" class="icon" id="menu" style="display: none;">&#9776;</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="intro-sect">
+        <div class="intro">
+          <h2>Твой уютный дом</h2>
+          <p>
+            Что как не приятная глазу вещица дает ощущение уюта в доме.<br />
+            Маленьние вещи приносят ощущение тепла в твоем доме.
+          </p>
+        </div>
+      </section>
+      <section class="cards">
+      <template id="card-temp">
+        <div class="card">
+       
+          <div class="card-img">
+            <img class="card-img-src" src=""/>
+          </div>
+          <div class="card-info">
+              <p class="card-title"></p>
+              <div class="card-info-price">
+                <p class="price-title">Цена</p>
+                <p class="price-title-price" style="color: #dfb729"></p>
+              </div>
+              <button class="card-info-btn">КУПИТЬ</button>
+           </template>
+          </div>
+        </div>
+       
+      </section>
+     
+        <template  id="popUp-part">
+          <div class="popup-bg" id="popup-block">
+            <div class="popup">
+              <div class="popup-top">
+                <h3>Корзина</h3>
+                <span
+                  id="popup-close"
+                  onclick="click_close_menu_basket()"
+                  style="cursor: pointer"
+                  >&#9746;</span
+                >
+              </div>
+              <div class="popup-list">
+                  <ul class="popup-list-name">
+                    
+                 </ul>
+              </div>
+              <button class="popup-list-btn">Купить</button>
+            </div>
+          </div>
+        </template>
+      <section class="popUp-section">
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>МилыйДом</p>
+        <a href="#">Контакты</a>
+      </div>
+    </footer>
+    <script src="./src/script.js"></script>
+    <script src="./src/index.ts"></script>
+    <script
+      src="https://kit.fontawesome.com/395cf5f204.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
